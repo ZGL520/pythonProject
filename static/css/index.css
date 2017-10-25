@@ -1,14 +1,15 @@
 .hello{
     color: rebeccapurple;
 }
-.message{
+.messagesss{
     width: 500px;
     border:grey 1px solid;
     margin:20px auto;
+    padding: 20px 0;
 }
-.message>p{
+.messagesss>form>p{
     margin-left: 25px;
 }
-.message>input{
+.messagesss>form>input{
     margin-left: 35px;
 }

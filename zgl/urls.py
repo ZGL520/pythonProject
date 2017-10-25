@@ -19,5 +19,5 @@ from apps.message.views import messageindex
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-    url(r'^message/$', messageindex),
+    url(r'^messageurl/$', messageindex),
 ]

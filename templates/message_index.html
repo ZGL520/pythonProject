@@ -7,17 +7,20 @@
 </head>
 <body>
 <h1 class="hello">hello,here is my django project</h1>
-<div class="message">
-    <form action="">
+<div class="messagesss">
+    <form action="/messageurl/" method="post">
+        <p>留言信息，请留下你的信息。</p>
         <p>名字：</p>
-        <input type="text">
+        <input id="name" type="text" name="name">
         <p>邮箱：</p>
-        <input type="email">
+        <input id="email" type="email" name="email">
         <p>地址：</p>
-        <input type="text">
+        <input id="address" type="text" name="address">
         <p>留言：</p>
-        <input type="text">
-        <input type="submit" value="提交">
+        <input id="message" type="text" name="message">
+        <input type="button" class="button" value="提交">
+        {% csrf_token %}
+        <p>//提交form表单是必须添加这段代码，这是django的安全机制</p>
     </form>
 </div>
 </body>
