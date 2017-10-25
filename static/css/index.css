@@ -1,0 +1,14 @@
+.hello{
+    color: rebeccapurple;
+}
+.message{
+    width: 500px;
+    border:grey 1px solid;
+    margin:20px auto;
+}
+.message>p{
+    margin-left: 25px;
+}
+.message>input{
+    margin-left: 35px;
+}
